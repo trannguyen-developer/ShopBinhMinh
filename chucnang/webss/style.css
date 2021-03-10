@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*header*/
+
+
+/*left*/
+
+#header #login{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(40, 40, 40);
+
+}
+#header #login #left span {
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+    opacity: 80%;
+
+}
+#header #login #left #img1{
+    float: left;
+    position: relative;
+    top: 8px;
+    margin-left: 10px;
+    margin-right: 5px;
+
+}
+#header #login #left ul li{
+   display: inline-table;
+}
+
+#header #login #left #img2{
+    float: left;
+    position: relative;
+    top: -4px;
+    margin-left: 10px;
+    margin-right: -14px;
+
+}
+#header #login #left a{
+    text-decoration: none;
+    color: white;
+}
+/*right*/
+
+
+#header #login #right{
+    float: right;
+}
+#header #login #right span {
+    line-height: 40px;
+    color: white;
+    font-size: 13px;
+
+}
+#header #login #right ul{
+    position: relative;
+    top: -72px;
+}
+#header #login #right ul li{
+    display: inline-table;
+    margin-right: 20px;
+ }
+ #header #login #right #img1{
+    float: left;
+    opacity: 80%;
+
+                   
+}
+#header #login #right #img2{
+    float: left;
+
+                   
+}
+
+#search{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(30, 30, 30);
+    margin-top: -30px;
+}
+
+/*search*/
+#search{
+    clear: both;
+    position: relative;
+    top: -97px;
+    border-bottom:red 2px solid ;
+
+}
+#search #logo{
+    margin-left: 70px;
+    float: left;
+}
+select{
+    position: relative;
+    left: 4px;
+}
+#search #timkiem{
+    float: left;
+    position: relative;
+    top: 28px;
+    left: 300px;
+
+    
+}
+#search #timkiem input{
+    width: 300px;
+    height: 25px;
+    border-radius: 3px ;
+    border: none;
+    position: relative;
+
+    
+
+}
+#search #timkiem button{
+    height: 25px;
+    width: 80px;
+    background-color: red;
+    border: none;
+    position: relative;
+    left: -25px;
+    top: -0px;
+    border-top-right-radius: 3px ;
+    border-bottom-right-radius: 3px ;
+    color: white;
+}
+#search #cart{
+    position: relative;
+    top: 6px;
+    margin-left: 1300px;
+
+}
+/*Menu*/
+
+#menu{
+    clear: both;
+    width: 100%;
+    position: relative;
+    top: -97px;
+    border-bottom: rgb(192, 186, 186) 1px solid;
+    z-index: 20;
+    height: 51px;
+}
+#menu > ul{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 150px;
+    list-style-type: none;
+
+}
+#menu > ul > li{
+    display: inline-table;
+
+
+}
+#menu > ul> li >a{
+    display: inline-table;
+    width: 120px;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+  
+}
+#menu > ul li a:hover{
+    background-color: rgb(30, 30, 30);
+    color: red;
+}
+
+#menu  ul li > .menucon{
+    display:none ;
+
+}
+
+.menucon  {
+    list-style-type: none;
+    background: white;
+    position: relative;
+}
+.menucon li a{
+    display: inline-table;
+
+    text-align: left;
+    width: 120px;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+}
+#menu  ul li:hover .menucon{
+    display: block;
+}
+.menuchau{
+    list-style-type: none;
+    display: none;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    background: white;
+}
+
+.menuchau li a{
+    width: 170px;
+}
+.menucon li:hover .menuchau{
+    
+    display: inline-table;
+}
+.menucon a{
+    border-bottom: 1px rgb(189, 182, 182) solid;
+}
+
+
+/*Demo*/
+#demo{
+    margin-top: -98px;
+    position: relative;
+    top: -47px;
+    z-index: 10;
+}
+#demo img{
+    width: 100%;
+}
+
+
+/*Content*/
+#content{
+    position: relative;
+    margin-top: -50px;
+    width: 100%;
+    height: 2000px;
+    background-color: rgb(50, 50,50);
+}
+#content #spmoi{
+    margin: auto;
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+    position: relative;
+    top: 30px;
+}
+#content #spmoi #td{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+#content #spmoi #td p{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: myriad pro;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+#content .sp{
+    border: 1px solid rgb(231, 227, 227);
+    box-shadow: 2px 2px 2px rgb(231, 231, 235)  ;
+    width: 400px;
+    height: 570px;
+    text-align: center;
+    margin: 20px;
+    float: left;
+    margin-left: 60px;
+
+}
+#content .sp #anh{
+    margin: auto;
+    width: 380px;
+    height: 420px;
+
+}
+#content .sp #anh img{
+    width: 280px;
+    margin: auto;
+    padding-top: 30px;
+
+}
+
+
+#content .sp #p1{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+    height: 25px;
+    margin-top: -5px;
+}
+#btn{
+    margin-top: 5px;
+}
+#content .sp #p2{
+    font-weight: bold;
+    margin-top: 30px;
+    line-height: 30px;
+}
+#content .sp #p2 #s1{
+    margin-right: 15px;
+    text-decoration: line-through;
+}
+#content .sp #p2 #s2{
+    color: red;
+}
+#content button{
+    width: 120px;
+    height: 25px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+
+#content #banchay{
+    position: relative;
+    top: 60px;
+    margin: auto;
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+}
+#content #banchay #td{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+#content #banchay #td p{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: myriad pro;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+
+
+
+#content #timkiem{
+    position: relative;
+    top: 90px;
+    margin: auto;
+    width: 100%;
+    height: 2000px;
+    background-color: white;
+}
+#content #timkiem #td{
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+}
+#content #timkiem #td p{
+    font-weight: bold;
+    font-size: 25px;
+    font-family: myriad pro;
+    padding-top: 25px;
+    padding-left: 30px;
+}
+/*Footer*/
+#footer{
+    width: 100%;
+    height: 350px;
+    background-color: rgb(40, 40, 40); 
+    clear: both;
+    color: white;
+    padding-top: 50px;
+    position: relative;
+    top: 150px;
+  
+    
+    
+}
+#footer p{
+    margin-top: 35px;
+    list-style-type: none;
+    
+}
+#footer ul{
+    margin-top: 30px;
+    list-style-type: none;
+
+
+}
+#footer ul li{
+    line-height: 35px;
+}
+#footer #f1,#f2,#f3,#f4{
+    height: auto;
+    width: 360px;
+    float: left;
+    opacity: 85%;
+
+}
+#footer #f1,#f2,#f3{
+    margin-left: 25px;
+}
+#footer #f1{
+    padding-left: 50px;
+    padding-right: 80px;
+    text-align: justify;
+
+}
+#footer h2{
+    margin-bottom: 35px;
+}
+
+/*copy*/
+#copy{
+   
+    width: 100%;
+    height: 50px;
+    background-color: rgb(10, 10,10);
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 150px;
+}
+.modal-body #td{
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+hr{
+    height: 1px;
+    /* Set the hr color */
+    background-color: rgb(221, 217, 217); /* Modern Browsers */
+}
+.modal-body p{
+    font-family: myriad pro;
+}
+.modal-body .sl{
+    font-weight: bold;
+    display: inline;
+}
+.modal-body input{
+    width: 40px;
+    margin-left: 20px;
+}
+#btncart{
+    width: 100%;
+    margin-top: 30px;
+}
+.modal-body  #s1{
+    margin-right: 15px;
+    text-decoration: line-through;
+}
+.modal-body #s2{
+    color: red;
+    font-weight: bold;
+}
